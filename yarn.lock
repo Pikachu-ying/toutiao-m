@@ -933,7 +933,7 @@
   resolved "https://registry.npmmirror.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.12.13", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.12.13", "@babel/runtime@^7.4.5", "@babel/runtime@^7.8.4":
   version "7.21.5"
   resolved "https://registry.npmmirror.com/@babel/runtime/-/runtime-7.21.5.tgz#8492dddda9644ae3bda3b45eabe87382caee7200"
   integrity sha512-8jI69toZqqcsnqGGqwGS4Qb1VwLOEp4hz+CXPywcvjs60u3B4Pom/U/7rm4W8tMOYEB+E9wgD0mW1l3r8qlI9Q==
@@ -1322,7 +1322,12 @@
   dependencies:
     "@types/node" "*"
 
-"@vue/babel-helper-vue-jsx-merge-props@^1.4.0":
+"@vant/icons@1.1.8":
+  version "1.1.8"
+  resolved "https://registry.npmmirror.com/@vant/icons/-/icons-1.1.8.tgz#2acd9b1c608fab7cfd25cf82dc0c9960d0f0495a"
+  integrity sha512-w8DVBQ7Hrr3Ut1KAawPy4pkxhEMDCuCTdVfFgbydLrv1k/unp/Ml0REZVEO2NN4W3Do5r1fypbsNOw1Sm33eLg==
+
+"@vue/babel-helper-vue-jsx-merge-props@^1.0.0", "@vue/babel-helper-vue-jsx-merge-props@^1.4.0":
   version "1.4.0"
   resolved "https://registry.npmmirror.com/@vue/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-1.4.0.tgz#8d53a1e21347db8edbe54d339902583176de09f2"
   integrity sha512-JkqXfCkUDp4PIlFdDQ0TdXoIejMtTHP67/pvxlgeY+u5k3LEdKuWZ3LK6xkxo52uDoABIVyRwqVkfLQJhk7VBA==
@@ -6444,6 +6449,16 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+vant@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmmirror.com/vant/-/vant-2.0.0.tgz#3d87112aac1061f007bdce056a7af47d9ec0db05"
+  integrity sha512-nJx4EpDGWWafHVObrUst8VMHfaI9DkUuLyA7PM0iBGGp2eZI+itmxwGmucdWLOy5931ASasIqbbbqMBnrrSGHw==
+  dependencies:
+    "@babel/runtime" "^7.4.5"
+    "@vant/icons" "1.1.8"
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0"
+    vue-lazyload "1.2.3"
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.npmmirror.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -6466,6 +6481,11 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.npmmirror.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
+
+vue-lazyload@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.npmmirror.com/vue-lazyload/-/vue-lazyload-1.2.3.tgz#901f9ec15c7e6ca78781a2bae4a343686bdedb2c"
+  integrity sha512-DC0ZwxanbRhx79tlA3zY5OYJkH8FYp3WBAnAJbrcuoS8eye1P73rcgAZhyxFSPUluJUTelMB+i/+VkNU/qVm7g==
 
 vue-loader@^17.0.0:
   version "17.1.1"
